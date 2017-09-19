@@ -35,7 +35,7 @@ RUN apk update &&\
 # SET Jenkins Environment Variables
 ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_SLAVE_AGENT_PORT 50000
-ENV JENKINS_VERSION 2.7.3
+ENV JENKINS_VERSION 2.73
 ENV JENKINS_SHA f822e70810e0d30c6fbe7935273635740faa3d89
 ENV JENKINS_UC https://updates.jenkins-ci.org
 ENV COPY_REFERENCE_FILE_LOG $JENKINS_HOME/copy_reference_file.log
